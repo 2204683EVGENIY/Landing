@@ -1,0 +1,102 @@
+.rates {
+  height: 277px;
+  margin-bottom: 3%;
+}
+
+.econom-block {
+  float: left;
+  width: 31.33%;
+  height: 240px;
+  text-align: center;
+  padding-top: 3%;
+  background-color: lightgray;
+  margin-right: 1.50%;
+}
+
+.normal-block {
+  float: left;
+  width: 31.33%;
+  height: 240px;
+  text-align: center;
+  padding-top: 3%;
+  background-color: lightgray;
+  margin-right: 1.50%;
+  margin-left: 1.50%;
+}
+
+.gold-block {
+  float: left;
+  width: 31.33%;
+  height: 240px;
+  text-align: center;
+  padding-top: 3%;
+  background-color: lightgray;
+  margin-left: 1.50%;
+}
+
+.rate-name {
+  padding-bottom: 15px;
+}
+
+.text-medium li {
+  list-style: none;
+}
+
+.best-sale {
+  color: blue;
+  margin-top: 10%;
+}
+
+@media (max-width: 1275px) {
+  .rates,
+  .econom-block,
+  .normal-block,
+  .gold-block {
+    float: none;
+    width: auto;
+    height: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 3%;
+  }
+
+  .rates {
+    margin-bottom: 0%;
+  }
+
+  .best-sale {
+    margin-top: 3%;
+  }
+
+  .normal-block,
+  .gold-block {
+    margin-top: 3%;
+  }
+}
+
+@media (max-width: 800px) {
+  .rates,
+  .econom-block,
+  .normal-block,
+  .gold-block {
+    float: none;
+    width: auto;
+    height: auto;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 3%;
+  }
+
+  .rates {
+    margin-bottom: 0%;
+  }
+
+  .best-sale {
+    margin-top: 3%;
+  }
+
+  .normal-block,
+  .gold-block {
+    margin-top: 3%;
+  }
+}

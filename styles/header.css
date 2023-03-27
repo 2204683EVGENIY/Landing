@@ -1,0 +1,35 @@
+header {
+  margin-bottom: 3%;
+  height: 85px;
+}
+
+.head-first {
+  float: left;
+  width: 31.33%;
+  text-align: center;
+  background-color: lightgray;
+  margin-right: 1.50%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.head-second {
+  float: left;
+  width: 31.33%;
+  text-align: center;
+  background-color: lightgray;
+  margin-right: 1.50%;
+  margin-left: 1.50%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.head-third {
+  float: left;
+  width: 31.33%;
+  text-align: center;
+  background-color: lightgray;
+  margin-left: 1.50%;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
