@@ -1,65 +1,46 @@
 .rates {
-  height: 350px;
+  height: 250px;
   margin-bottom: 3%;
-  font-family: "URW Chancery L", cursive;
-  font-size: 30px;
 }
 
 .rate-button {
-  font-family: "Trebuchet MS", sans-serif;
   background-color: blue;
   margin-left: 30%;
   margin-right: 30%;
   border-radius: 150px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .econom-block {
   float: left;
-  width: 31.17%;
-  height: 350px;
+  width: 33.33%;
+  height: 250px;
   text-align: center;
   padding-top: 3%;
-  background-color: rgba(0, 0, 0, 0.1);
-  margin-right: 1.50%;
-  border-radius: 50px;
-  border: 1px solid grey;
-  margin-bottom: 3%;
+  background-color: white;
 }
 
 .normal-block {
   float: left;
-  width: 31.17%;
-  height: 350px;
+  width: 33.33%;
+  height: 250px;
   text-align: center;
   padding-top: 3%;
-  background-color: rgba(0, 0, 0, 0.1);
-  margin-right: 1.50%;
-  margin-left: 1.50%;
-  border-radius: 50px;
-  border: 1px solid grey;
-  margin-bottom: 3%;
+  background-color: white;
 }
 
 .gold-block {
   float: left;
-  width: 31.17%;
-  height: 350px;
+  width: 33.33%;
+  height: 250px;
   text-align: center;
   padding-top: 3%;
-  background-color: rgba(0, 0, 0, 0.1);
-  margin-left: 1.50%;
-  border-radius: 50px;
-  border: 1px solid grey;
-  margin-bottom: 3%;
+  background-color: white;
 }
 
 .rate-name {
   padding-bottom: 15px;
-  font-family: "URW Chancery L", cursive;
-  font-size: 40px;
 }
 
 .text-medium li {
@@ -76,30 +57,33 @@
   .econom-block,
   .normal-block,
   .gold-block {
-    float: none;
-    width: auto;
     height: auto;
-    margin-left: 0%;
-    margin-right: 0%;
-    padding-bottom: 3%;
+    padding: 0px;
   }
 
   .rates {
     margin-bottom: 0%;
+    height: 296px;
+  }
+
+  .rate-button {
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .best-sale {
     margin-top: 3%;
   }
-
+  
+  .econom-block,
   .normal-block,
   .gold-block {
-    margin-top: 3%;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
 @media (max-width: 800px) {
-  .rates,
   .econom-block,
   .normal-block,
   .gold-block {
@@ -108,19 +92,31 @@
     height: auto;
     margin-left: 0%;
     margin-right: 0%;
-    padding-bottom: 3%;
+    height: 200px;
+  }
+  .econom-block {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .normal-block {
+    padding-top: 0px;
+  }
+
+  .gold-block {
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
 
   .rates {
-    margin-bottom: 0%;
+    height: 622px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 13%;
+    padding-left: 13%;
   }
 
   .best-sale {
-    margin-top: 3%;
-  }
-
-  .normal-block,
-  .gold-block {
     margin-top: 3%;
   }
 }

@@ -5,80 +5,51 @@ body a:hover {
 }
 
 body {
-  background-image: url("https://top-fon.com/uploads/posts/2022-09/1663858726_32-top-fon-com-p-fon-serie-soti-foto-35.jpg");
-  background-attachment: fixed;
-  font-family: "URW Chancery L", cursive;
+  text-align: center;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 16px;
   font-style: italic;
-  margin-left: 3%;
-  margin-right: 3%;
-  background-color: white;
 }
 
 .intro {
-  background-image: url("../photos/boots_stepcounter2.jpg");
-  background-repeat: repeat-x;
-  background-size: 40% auto;
-  background-attachment: scroll, fixed;
-  background-position: 50% 100%, center bottom;
-  color: black;
+  background-color: white;
   text-align: center;
-  margin-bottom: 3%;
-  border-radius: 50px;
-  border: 1px solid grey;
-  background-color: rgba(0, 0, 0, 0.1);
+  height: 500px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.picture {
+  background-color: white;
+  max-width: 47%;
+  float: left;
 }
 
 .intro-text {
-  margin-bottom: 30%;
-  margin-top: 30px;
-}
-
-.intro-text h1 {
-  font-size: 80px;
-}
-
-.intro-text h2 {
-  font-size: 40px;
-}
-
-.image {
-  padding-bottom: 60px;
-  width: auto;
+  height: 443px;
+  background-color: white;
+  width: 47%;
+  float: right;
+  padding-top: 4.30%;
+  padding-left: 30px;
 }
 
 .description {
-  background-image: url("../photos/walking_people.jpg");
-  background-repeat: repeat-x;
-  background-size: 30% auto;
-  background-attachment: scroll, fixed;
-  background-position: 50% 100%, center bottom;
   color: black;
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-bottom: 30px;
   text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 3%;
-  border-radius: 50px;
-  border: 1px solid grey;
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .disclamer {
-  font-size: 30px;
-  padding-bottom: 60px;
-  padding-top: 10px;
+  background-color: black;
+  color: white;
+  padding: 3%;
 }
 
 .text-lead {
-  color: black;
-  max-width: 70%;
-  margin: 0 15%;
+  margin-top: 30px;
 }
 
 .button {
-  font-family: "Trebuchet MS", sans-serif;
   display: inline-block;
   border-radius: 3px;
   font-size: 16px;
@@ -91,60 +62,81 @@ body {
 
 .buffer-both {
   background-color: blue;
-  margin-left: 38%;
-  margin-right: 38%;
+  margin-left: 35%;
+  margin-right: 35%;
   border-radius: 150px;
-  margin-top: 50px;
-}
-
-.text-lead {
-  font-size: 20px;
-}
-
-.title-large {
-  font-size: 48px;
-  margin-bottom: 18px;
+  margin-top: 60px;
 }
 
 @media (max-width: 1275px) {
-  .description {
-    background-color: rgba(0, 0, 0, 0.1);
-    background-image: none;
-    padding-bottom: 5px;
-    padding-top: 5px;
+  .intro {
+    height: 550px;
   }
 
   .disclamer {
-    padding: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 
-  .intro {
-    background-color: rgba(0, 0, 0, 0.1);
-    padding: 0px;
+  .picture {
+    padding-top: 15%;
+  }
+
+  .buffer-both {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .intro .picture {
+    text-align: center;
+    width: auto;
+  }
+
+  .photo {
+    max-width: 300px;
+    float: left;
+  }
+
+  .intro-text {
+    float: right;
   }
 }
 
 @media (max-width: 800px) {
-
-  .intro-text .buffer-both .button{
-    padding: 2%;
+  
+  .intro,
+  .picture,
+  .intro-text {
+    float: none;
+    width: auto;
   }
 
-  .intro .buffer-both {
-    margin-left: 30%;
-    margin-right: 30%;
-  }
-
-  .description {
-    background-image: none;
-  }
-
-  .intro {
-    background-image: none;
+  .intro-text {
     padding: 0px;
   }
 
-  .image {
-    max-width: 100%;
+  .buffer-both {
+    margin-bottom: 50px;
   }
-}
+
+  .picture {
+    width: 448px;
+    height: 276px;
+  }
+
+  .photo {
+    padding-left: 9%;
+    padding-right: 15%;
+    margin-bottom: 50px;
+  }
+
+  .disclamer {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 13%;
+    padding-left: 13%;
+  }
+
+  .intro {
+    height: 885px;
+  }
